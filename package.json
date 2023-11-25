@@ -8,10 +8,9 @@
   "devDependencies": {
     "gh-pages": "^6.1.0"
   },
-  "homepage": "http://kxnguyen03.github.io/react-hW",
+  "homepage": "https://main--kxnguyen03-react-hw.netlify.app",
   "name": "react-hw",
   "version": "0.1.0",
-  "private": "true",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
