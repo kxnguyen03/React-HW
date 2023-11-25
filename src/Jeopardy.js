@@ -8,7 +8,7 @@ function Jeopardy() {
   
   // Fetch data from the API to get a random question
   useEffect(() => {
-    fetch('http://jservice.io/api/random')
+    fetch('https://jservice.io/api/random')
       .then(response => response.json())
       .then(data => {
         setQuestion(data[0].question);
@@ -26,7 +26,7 @@ function Jeopardy() {
   // Fetch a new random question when the "Next Question" button is clicked
   const nextQuestion = () => {
     setAnswerVisible(false);
-    fetch('http://jservice.io/api/random')
+    fetch('https://jservice.io/api/random')
       .then(response => response.json())
       .then(data => {
         setQuestion(data[0].question);
