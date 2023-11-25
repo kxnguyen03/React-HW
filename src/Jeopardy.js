@@ -46,7 +46,7 @@ function Jeopardy() {
         <div>
           <p><b>Category:</b> {category}</p>
           <p><b>Question:</b> {question}</p>
-          {answerVisible && <p><b>Answer:</b> {answer}</p>}
+          {answerVisible && <p><b>Answer:</b> What/Who is {answer}?</p>}
         </div>
       )}
       {!question && <p>Loading...</p>}
